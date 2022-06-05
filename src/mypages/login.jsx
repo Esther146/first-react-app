@@ -23,7 +23,7 @@ export default function Login() {
                     </Link>
                 </p>
                 <Link to="/forgotpassword">
-                <p className="text-center mt-5 font-medium text-gray-700">Forgot Password</p>
+                <p className="text-center mt-5 font-medium text-gray-800">Forgot Password</p>
                 </Link>
             </div>
         </div>
