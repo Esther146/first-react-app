@@ -25,7 +25,7 @@ export default function Signup() {
             </p>
 
             <p className="text-center mt-6 font-medium text-gray-700">Already have an account? 
-                <Link to="/signup">
+                <Link to="/login">
                 <span className="font-bold text-black"> Login</span>
                 </Link>
             </p>
