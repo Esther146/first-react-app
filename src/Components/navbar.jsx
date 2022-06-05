@@ -12,11 +12,11 @@ export default function Navbar() {
                     <p>Home</p>
                </Link>
 
-               <Link to="login">
+               <Link to="/login">
                     <p>Login</p>
                </Link>
 
-               <Link to="signup">
+               <Link to="/signup">
                     <p>Sign up</p>
                </Link>
            </div>

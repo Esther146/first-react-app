@@ -17,7 +17,7 @@ export default function Login() {
 
                 <p className="text-2xl font-light text-center mt-6 text-gray-600">OR</p>
 
-                <p className="text-center mt-5 font-medium text-gray-700">Don't have an account? 
+                <p className="text-center mt-6 font-medium text-gray-700">Don't have an account? 
                     <Link to="/signup">
                     <span className="font-bold text-black"> Sign up</span>
                     </Link>
