@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
+
 
 //next is to import my work pages
 
@@ -8,6 +10,7 @@ import Signup from './mypages/signup';
 import Forgotpassword from './mypages/forgotpassword';
 import Home from './mypages/home';
 import Navbar from './Components/navbar';
+
 
 function App() {
   return (
