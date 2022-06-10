@@ -7,7 +7,7 @@ export default function Forgotpassword() {
 
     const [loginEmail, setLoginEmail] = useState("");
     const [loginPassword, setLoginPassword] = useState("");
-    const [loading, setLoading] = React.useState("")
+    const [loading, setLoading] = useState("")
 
     const login = async () => {
       try {

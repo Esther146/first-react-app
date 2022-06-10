@@ -9,7 +9,7 @@ import { useState } from 'react';
 export default function Signup() {
     const [registerEmail, setRegisterEmail] = useState("");
     const [registerPassword, setRegisterPassword] = useState("");
-    const [loading, setLoading] = React.useState("")
+    const [loading, setLoading] = useState("")
 
     const register = async () => {
       try {

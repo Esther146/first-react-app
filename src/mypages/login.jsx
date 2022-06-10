@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import{ React,  useState } from "react";
 import { Link } from 'react-router-dom'
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from './firebase-config'
@@ -8,7 +8,7 @@ export default function Login() {
 
     const [enterinEmail, setEnterinEmail] = useState("");
     const [enterinPassword, setEnterinPassword] = useState("");
-    const [loading, setLoading] = React.useState("")
+    const [loading, setLoading] = useState("")
 
     const enterin = async () => {
       try {

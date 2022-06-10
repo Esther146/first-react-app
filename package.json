@@ -1,7 +1,7 @@
 {
   "name": "app-pro",
   "version": "0.1.0",
-  "homepage": "https://Esther146.github.io/first-react-app",
+  "homepage": "https://esther146.github.io/first-react-app",
   "private": true,
   "dependencies": {
     "@dash-ui/styles": "^0.8.9",
